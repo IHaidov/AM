@@ -1,0 +1,13 @@
+#one,#two,#three,#four,#five{
+    height: calc(100vh/4);
+    clear: both;
+}
+#two,#three,#four{
+    width: 100vw;
+}
+#four{
+    display: none;
+}
+#five{        
+    font-size: 32px;    
+}

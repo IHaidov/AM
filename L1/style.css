@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #222;
+    color:yellow;
+    }
+    
+    div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #one{
+    background-color: #70e6c6;
+    height: calc(100vh/3); 
+    width: 100vw;
+    background-size: contain;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#two{
+background-color: #335e38;
+height: calc(100vh/3); 
+width: 33.33%;
+float: left;
+}
+#three{
+background-color: #728246;
+height: calc(100vh/3); 
+width: 33.33%;
+float: left;
+}
+#four{
+background-color: #107f2e;
+height: calc(100vh/3); 
+width: 33.33%;
+float: left;
+}
+#five{
+background-color: #0e3f19;
+height: calc(100vh/3); 
+width: 100vw;
+float: left;
+}
